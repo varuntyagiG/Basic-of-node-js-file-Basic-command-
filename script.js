@@ -107,7 +107,7 @@ User.findByIdAndDelete({_id : '663405d4fb0d053849137a0b'}).then((res)=>{
     console.log(res);
 }).catch((err)=>{
     console.log(err);
-})
+});
 
 
 
