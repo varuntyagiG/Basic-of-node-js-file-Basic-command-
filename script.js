@@ -77,7 +77,7 @@ const User = mongoose.model('User',userSchema);          // user in parameter is
 // User.findOneAndUpdate({name : 'Gaurav Tyagi'},{name : "Dinesh Tyagi"}).then((res)=>{
 //     console.log(res);
 // })
-// .catch((err)=>{
+// .catch((err)=>{             // phle vale value hi mile ghe
 //     console.log(err);
 // })
 
@@ -86,7 +86,7 @@ const User = mongoose.model('User',userSchema);          // user in parameter is
 //     console.log(res);
 // })
 // .catch((err)=>{
-//     console.log(err);
+//     console.log(err);      // updated value
 // })
 
 // User.deleteOne({age : 18}).then((res)=>{
