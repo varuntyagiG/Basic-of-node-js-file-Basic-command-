@@ -13,7 +13,7 @@ async function main() {
 const booksSchema = new mongoose.Schema({
     tittle:{
         type : String,
-        required : true,
+        required : true,       // condition h jo hamko mann-ne hi pade ghe
         maxLength : 20
     },
     author:{                         // another way to define schema
